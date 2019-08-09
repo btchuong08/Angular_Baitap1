@@ -7,11 +7,12 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { SmartphoneComponent } from './smartphone/smartphone.component';
 import { LaptopComponent } from './laptop/laptop.component';
 import { PromotionComponent } from './promotion/promotion.component';
+import { ProductItemComponent } from './product-item/product-item.component';
 
 
 
 @NgModule({
-  declarations: [ BaitapComponent, HeaderComponent, CarouselComponent, SmartphoneComponent, LaptopComponent, PromotionComponent],
+  declarations: [ BaitapComponent, HeaderComponent, CarouselComponent, SmartphoneComponent, LaptopComponent, PromotionComponent, ProductItemComponent],
   exports:[BaitapComponent],
   imports: [
     CommonModule
